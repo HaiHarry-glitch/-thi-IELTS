@@ -285,7 +285,7 @@ function ExamCard({ item, skill }: { item: LibraryItem; skill: "reading" | "list
     >
       <div className="relative aspect-[16/10] overflow-hidden border-b-2 border-[#1a1a1a] bg-[#F5F1E9]">
         <img
-          src={`/api/thumb/${item.id}`}
+          src={`/thumbs/${item.id}.jpg`}
           alt={title}
           loading="lazy"
           className="h-full w-full object-cover transition-transform duration-200 group-hover:scale-[1.03]"

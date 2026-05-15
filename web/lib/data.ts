@@ -178,7 +178,7 @@ export function getAllQuizIds(): number[] {
 }
 
 export function getThumbPath(id: number): string {
-  return `/api/thumb/${id}`;
+  return `/thumbs/${id}.jpg`;
 }
 
 // ==== Listening ====

@@ -1,6 +1,6 @@
 ﻿/**
  * Strip source-prefix brackets from quiz titles.
- * e.g. "[YouPass Collect] - Child's Play in Medieval England" â†’ "Child's Play in Medieval England"
+ * e.g. "[HIN Collect] - Child's Play in Medieval England" → "Child's Play in Medieval England"
  * e.g. "[C20T4] Some title" â†’ "Some title"
  */
 export function cleanTitle(title: string): string {

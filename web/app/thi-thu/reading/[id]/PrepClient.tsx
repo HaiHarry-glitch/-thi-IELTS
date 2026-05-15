@@ -59,7 +59,7 @@ export default function PrepClient({
           {/* Hero image */}
           <div className="relative h-52 bg-gradient-to-br from-orange-400 to-orange-600">
             <img
-              src={`/api/thumb/${quiz.id}`}
+              src={`/thumbs/${quiz.id}.jpg`}
               alt={cleanTitle(quiz.title)}
               className="w-full h-full object-cover opacity-40"
               onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
