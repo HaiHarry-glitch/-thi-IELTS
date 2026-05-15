@@ -8,6 +8,7 @@
 [build.environment]
   NODE_VERSION = "20"
   NEXT_TELEMETRY_DISABLED = "1"
+  NEXT_PUBLIC_TRACKING_GAS_URL = "https://script.google.com/macros/s/AKfycbyniwMHKSdhyV7eSPSLGluI5tVpzxt3JGGUsLqvGVTDydcuk7gsEt2gZTFwoIbYuR98ug/exec"
 
 [functions]
   included_files = [
