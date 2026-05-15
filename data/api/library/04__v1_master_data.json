@@ -1,0 +1,42 @@
+{
+  "url": "https://api.youpass.vn/v1/master-data?config=YOUPASS_FOOTER",
+  "status": 200,
+  "body": {
+    "code": 0,
+    "message": "",
+    "data": {
+      "YOUPASS_FOOTER": [
+        {
+          "icon": "https://cms-stg.youpass.vn/assets/578cd20c-012c-4d76-8240-9e559076a60a",
+          "link": "",
+          "title": "Địa chỉ",
+          "content": "213/9 Nguyễn Gia Trí, Phường Thạnh Mỹ Tây, TP Hồ Chí Minh"
+        },
+        {
+          "icon": "https://cms-stg.youpass.vn/assets/e5c01b31-77ae-44e1-9f25-c455a832e309",
+          "link": "https://zalo.me/youpass",
+          "title": "Zalo OA",
+          "content": "https://zalo.me/youpass"
+        },
+        {
+          "icon": "https://cms-stg.youpass.vn/assets/ef34784b-4e02-48c2-adb2-3afbe05a617b",
+          "link": "",
+          "title": "Hotline",
+          "content": "0355 232 833"
+        },
+        {
+          "icon": "https://cms-stg.youpass.vn/assets/ad0495d4-7c83-4937-8894-868dbd283eb3",
+          "link": "https://www.youtube.com/@youpassvn",
+          "title": "Youtube",
+          "content": "https://www.youtube.com/@youpass.vn"
+        },
+        {
+          "icon": "https://cms-stg.youpass.vn/assets/300e3079-7f8f-4764-931b-cb2a0c10a2d1",
+          "link": "https://www.tiktok.com/@youpassvn",
+          "title": "Tiktok",
+          "content": "https://www.tiktok.com/@youpassvn"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "url": "https://sr-client-cfg.amplitude.com/config/5b9375dca6952d4310999853468b185d?config_group=browser",
+  "status": 200,
+  "body": {
+    "configs": {
+      "diagnostics": {
+        "browserSDK": {
+          "sampleRate": 0.02
+        }
+      },
+      "sessionReplay": {
+        "sr_interaction_config": {
+          "batch": false,
+          "enabled": true
+        },
+        "sr_privacy_config": {
+          "maskSelector": [],
+          "blockSelector": [],
+          "unmaskSelector": [],
+          "defaultMaskLevel": "light"
+        },
+        "sr_sampling_config": {
+          "sample_rate": 0.0001,
+          "capture_enabled": true
+        }
+      },
+      "analyticsSDK": {}
+    }
+  }
+}

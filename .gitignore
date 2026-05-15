@@ -17,8 +17,15 @@ out/
 *.err.log
 debug.log
 
-# ALL DATA (too large, managed separately)
-data/
+# Heavy crawl/research data (NOT needed for build)
+data/firecrawl/
+data/firecrawl-7926/
+data/firecrawl-listening-10501/
+data/firecrawl-samples/
+data/reading-shots/
+data/screenshots/
+data/portal-listening-snapshots/
+data/inspection/
 
 # IDE / OS
 .claude/

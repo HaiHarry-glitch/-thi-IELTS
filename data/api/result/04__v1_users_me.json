@@ -1,0 +1,67 @@
+{
+  "url": "https://api.youpass.vn/v1/users/me",
+  "status": 200,
+  "body": {
+    "code": 0,
+    "message": "",
+    "data": {
+      "id": "e9eb2f73-694b-4a53-b5bb-02ae2cb6f36a",
+      "first_name": "Ha",
+      "last_name": "Nguyen",
+      "email": "haicursor02@gmail.com",
+      "location": "",
+      "title": "",
+      "description": "",
+      "avatar": "",
+      "external_avatar": "https://lh3.googleusercontent.com/a/ACg8ocJ2sDEGIeS5EPLIlk0V5Hz8OnoGOSkNlcUXNlNVPeFERmlOAg=s96-c",
+      "language": "",
+      "status": "active",
+      "last_access": "2026-05-08T15:31:31.699979+07:00",
+      "last_page": "",
+      "theme": "",
+      "birthday": "",
+      "fullname": "Nguyen Ha",
+      "facebook_url": "",
+      "is_active": true,
+      "phone_number": "",
+      "role": {
+        "id": "49b19b3a-3ccf-49c9-a10b-c767fb0df381",
+        "name": "End User",
+        "icon": "supervised_user_circle",
+        "description": "",
+        "public_id": "END_USER"
+      },
+      "referrer_email": "",
+      "tiktok": "",
+      "instagram": "",
+      "zalo": "",
+      "job_title": "",
+      "sub_title": "",
+      "attaches": "",
+      "long_description": "",
+      "attachments": null,
+      "meta": null,
+      "note": "",
+      "tags": null,
+      "source": [
+        {
+          "callback": "google",
+          "origin_domain": "https://youpass.vn",
+          "date_created": "2026-04-18T17:23:41.541Z"
+        }
+      ],
+      "date_created": "2026-04-19T00:23:39.569Z",
+      "is_verified_otp": false,
+      "dcoin_balance": {
+        "total": 0,
+        "used": 0,
+        "balance": 0
+      },
+      "is_84_student": false,
+      "recipient_info": null,
+      "cs_note": "",
+      "user_subscription": null,
+      "ielts_teacher": null
+    }
+  }
+}

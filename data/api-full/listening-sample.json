@@ -1,0 +1,2162 @@
+{
+  "code": 0,
+  "message": "",
+  "data": {
+    "id": 1626,
+    "type": 2,
+    "mode": 0,
+    "title": "Prepare for seminars",
+    "status": "published",
+    "sort": null,
+    "time": 60,
+    "is_test": true,
+    "simplified_id": null,
+    "limit_submit": null,
+    "thumbnail": "875f14bd-0411-4f8c-b3b4-f7bfb5dcbd0f",
+    "quiz_code": "",
+    "description": null,
+    "content": null,
+    "parts": [
+      {
+        "id": 1706,
+        "quiz_id": 1626,
+        "passage": 3,
+        "title": "",
+        "sort": 1,
+        "time": null,
+        "content": "<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Come in!</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Hi.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Oh, hello, Ahmed... how are you?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Fine, thanks.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Have a seat. So... how do you think the seminar went last week?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> {[Oh, well... I enjoyed it, yes, though I'm not sure I really followed parts of the discussion that took place -- you know, about the theory and all that...][1]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Well, we can talk about that later... but were you comfortable in a group?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Oh, it's better, I think, than working on your own -- though you're comparing yourself all the time with the other students there.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> OK, well, let's talk about how you did and look at some strategies to help you in the future.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> That would be great.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Now, one of the things that students often overlook when they go to seminars is that you do need to prepare for them. You can't rely on other people.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> {[I know, and I did look at the results of the experiments we did in class and write them up beforehand... as you said.][2]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> {[Yes... and that was good, it made it easier to analyse them.][2]} But you have to do some background reading as well. Did you get the list of articles I sent round?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Mmm - I've started to read them...</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> OK, well, you'll know that for next time.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Yes, yes, sure.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> So let's move on to your participation in the seminar.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Right.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Perhaps you can tell me how you think that went?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Yeah, well, I'm not used to talking to more than a couple of people - it's very different from the way we learn in my home country.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes, I appreciate that.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> So I think I, um... well, I know I should have included everyone, {[but I think I kept turning to the person next to me.][3]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Is that because you were avoiding eye contact?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> I don't think so - I'm not shy - it's just habit, I think.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Well, that will improve as we do more seminars.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Uh-huh.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Um, another difficulty is knowing when to speak.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Like when it's your turn?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> I felt I did wait for a pause...</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes, you handled that quite well.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> The thing I'm really concerned about is keeping up with the discussion.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Ah, does your mind wander off?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Sometimes. I jot down a lot of information, {[but I still find myself thinking about something else when lots of other students are talking.][4]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Mmm. If there's an assignment to do at the end of a group, that usually helps!</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> I'm sure it does.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> OK. Now, the last thing I want to look at is the role that you play in the seminar.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> What do you mean?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Well, when students work in groups, they don't all behave the same way. Some students are quiet, some look for support, some ask a lot of questions...</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> {[Oh... that's a new idea to me. I don't know what I'm like...][5]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> That's probably because you're thinking about your own performance all the time.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> I guess so. I mean, should I be different in some way.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> {[What I would say is that when we do the next seminar, you should look more at the people around you... you know, look outside yourself.][6]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Like, ask myself how they feel?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes, or what they're looking for from the group.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> OK.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> It doesn't take much, but it's important to watch what other students are doing.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> OK, I'll do that.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Fine. Now,...</p>\n<p class=\"whitespace-pre-wrap break-words\">(Pause)</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Now, I'm going to suggest a couple of strategies for next week's seminar.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> OK - that's great. I need to participate more.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Well, it's not a question of saying more - but we need everyone to feel comfortable about giving their views.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Then the discussion is better.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes. So... you're a confident person...</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Should I make sure I'm near someone who's quiet?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> You can do, {[but it's more about how well you pay attention to other students.][7]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> OK - so I need to be attentive.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> {[Yes, and then encourage someone else to say more by saying: 'What did you mean when you said...?' or 'What do you think about the idea that...?'][8]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> That way I'm talking...</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes, but you'll find that other people will talk, too. You'll all start to get really involved.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Right - they're good suggestions.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> The other thing that can really help is the way you take notes.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Yeah, I know I write down everything, but I should be stricter with myself.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> {[Well, you actually need to think a few days ahead.][9]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Really?</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes - 'What's the topic?' and 'What's the best way of making notes?'</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> I see. So I have a strategy when I walk in the room.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Exactly. Then, when you read through them later, they'll make sense and you won't have to write them out again.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> I always have to do that!</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> {[The other thing I would say is that you should include a small column in your notes where you can jot down things you want to go back to before the seminar ends.][10]}</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Like a reminder.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> Yes. Notes aren't just for later - you can use them as a prompt when there's a pause in the discussion.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> That's been really helpful.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Tutor:</strong> OK - see you in class tomorrow.</p>\n<p class=\"whitespace-pre-wrap break-words\"><strong>Ahmed:</strong> Thanks.</p>",
+        "simplified_content": null,
+        "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+        "date_created": "2024-06-28T11:55:30.395+07:00",
+        "date_updated": "2025-12-04T12:19:53.925+07:00",
+        "explanations": [],
+        "questions": [
+          {
+            "id": 10118,
+            "quiz_id": 0,
+            "type": "SINGLE-RADIO",
+            "question_type": "MULTIPLE_CHOICE_ONE",
+            "title": "What does Ahmed say about last week's seminar?",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 1,
+            "order": 1,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 13,
+            "locate": null,
+            "explain": null,
+            "description": "<h3><span style=\"color: rgb(224, 62, 45);\">Question 1-6:&nbsp;Choose the correct letter,&nbsp;A, B or C.</span></h3>\n <p>&nbsp;</p>",
+            "gap_fill_in_blank": null,
+            "single_choice_radio": [
+              {
+                "text": "He wasn't able to get there on time.",
+                "correct": false
+              },
+              {
+                "text": "He didn't know all the students.",
+                "correct": false
+              },
+              {
+                "text": "He couldn't understand everything.",
+                "correct": true
+              }
+            ],
+            "selection": null,
+            "mutilple_choice": null,
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:01:00.534+07:00",
+            "date_updated": "2025-12-04T12:19:53.942+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          },
+          {
+            "id": 10123,
+            "quiz_id": 0,
+            "type": "SINGLE-RADIO",
+            "question_type": "MULTIPLE_CHOICE_ONE",
+            "title": "What does the tutor say about Ahmed's preparation for the seminar?",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 2,
+            "order": 2,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 50,
+            "locate": null,
+            "explain": null,
+            "description": null,
+            "gap_fill_in_blank": null,
+            "single_choice_radio": [
+              {
+                "text": "He was better prepared than some students.",
+                "correct": false
+              },
+              {
+                "text": "He completed some useful work.",
+                "correct": true
+              },
+              {
+                "text": "He read some useful articles",
+                "correct": false
+              }
+            ],
+            "selection": null,
+            "mutilple_choice": null,
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:01:00.641+07:00",
+            "date_updated": "2025-12-04T12:19:54.657+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          },
+          {
+            "id": 10124,
+            "quiz_id": 0,
+            "type": "SINGLE-RADIO",
+            "question_type": "MULTIPLE_CHOICE_ONE",
+            "title": "What does Ahmed say about his participation in the seminar?",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 3,
+            "order": 3,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 106,
+            "locate": null,
+            "explain": null,
+            "description": null,
+            "gap_fill_in_blank": null,
+            "single_choice_radio": [
+              {
+                "text": "He tended to speak to his neighbour only.",
+                "correct": true
+              },
+              {
+                "text": "He spoke when other students were talking.",
+                "correct": false
+              },
+              {
+                "text": "He felt embarrassed when students looked at him.",
+                "correct": false
+              }
+            ],
+            "selection": null,
+            "mutilple_choice": null,
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:01:00.66+07:00",
+            "date_updated": "2025-12-04T12:19:54.032+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          },
+          {
+            "id": 10047,
+            "quiz_id": 0,
+            "type": "SINGLE-RADIO",
+            "question_type": "MULTIPLE_CHOICE_ONE",
+            "title": "What does Ahmed worry about most in seminars?",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 4,
+            "order": 4,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 144,
+            "locate": null,
+            "explain": null,
+            "description": null,
+            "gap_fill_in_blank": null,
+            "single_choice_radio": [
+              {
+                "text": "speaking at the right time",
+                "correct": false
+              },
+              {
+                "text": "taking enough notes",
+                "correct": false
+              },
+              {
+                "text": "staying focused",
+                "correct": true
+              }
+            ],
+            "selection": null,
+            "mutilple_choice": null,
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:00:58.841+07:00",
+            "date_updated": "2025-12-04T12:19:54.105+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          },
+          {
+            "id": 10130,
+            "quiz_id": 0,
+            "type": "SINGLE-RADIO",
+            "question_type": "MULTIPLE_CHOICE_ONE",
+            "title": "What does Ahmed say about his role in the group?",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 5,
+            "order": 5,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 173,
+            "locate": null,
+            "explain": null,
+            "description": null,
+            "gap_fill_in_blank": null,
+            "single_choice_radio": [
+              {
+                "text": "He hasn't thought about it.",
+                "correct": true
+              },
+              {
+                "text": "He'd like to change it.",
+                "correct": false
+              },
+              {
+                "text": "He feels he is acting a part.",
+                "correct": false
+              }
+            ],
+            "selection": null,
+            "mutilple_choice": null,
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:01:00.759+07:00",
+            "date_updated": "2025-12-04T12:19:54.434+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          },
+          {
+            "id": 10131,
+            "quiz_id": 0,
+            "type": "SINGLE-RADIO",
+            "question_type": "MULTIPLE_CHOICE_ONE",
+            "title": "At the next seminar, Ahmed's tutor suggests that he should",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 6,
+            "order": 6,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 187,
+            "locate": null,
+            "explain": null,
+            "description": null,
+            "gap_fill_in_blank": null,
+            "single_choice_radio": [
+              {
+                "text": "give other students more help with their work.",
+                "correct": false
+              },
+              {
+                "text": "observe the behaviour of other students.",
+                "correct": true
+              },
+              {
+                "text": "ask other students for their views.",
+                "correct": false
+              }
+            ],
+            "selection": null,
+            "mutilple_choice": null,
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:01:00.777+07:00",
+            "date_updated": "2025-12-04T12:19:54.584+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          },
+          {
+            "id": 10132,
+            "quiz_id": 0,
+            "type": "MULTIPLE",
+            "question_type": "MULTIPLE_CHOICE_MANY",
+            "title": "Which TWO strategies does the tutor suggest for the next seminar? Choose TWO letters, A- E.",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 7,
+            "order": 7,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 290,
+            "locate": null,
+            "explain": null,
+            "description": null,
+            "gap_fill_in_blank": null,
+            "single_choice_radio": null,
+            "selection": null,
+            "mutilple_choice": [
+              {
+                "text": "speak more frequently ",
+                "correct": false,
+                "order": 1
+              },
+              {
+                "text": "behave in a confident manner ",
+                "correct": false,
+                "order": 2
+              },
+              {
+                "text": " sit next to someone helpful ",
+                "correct": false,
+                "order": 3
+              },
+              {
+                "text": "listen to what other people say  ",
+                "correct": true,
+                "order": 4
+              },
+              {
+                "text": "think of questions to ask ",
+                "correct": true,
+                "order": 5
+              }
+            ],
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:01:00.792+07:00",
+            "date_updated": "2025-12-04T12:19:54.005+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          },
+          {
+            "id": 10191,
+            "quiz_id": 0,
+            "type": "MULTIPLE",
+            "question_type": "MULTIPLE_CHOICE_MANY",
+            "title": "Which TWO suggestions does the tutor make about taking notes? Choose TWO letters, A-E.",
+            "status": "published",
+            "content": "",
+            "content_writing": "",
+            "sort": 8,
+            "order": 9,
+            "part_id": 1706,
+            "time_to_think": null,
+            "listen_from": 328,
+            "locate": null,
+            "explain": null,
+            "description": null,
+            "gap_fill_in_blank": null,
+            "single_choice_radio": null,
+            "selection": null,
+            "mutilple_choice": [
+              {
+                "text": "plan them before the seminar",
+                "correct": true,
+                "order": 1
+              },
+              {
+                "text": "note down key words that people say",
+                "correct": false,
+                "order": 2
+              },
+              {
+                "text": "note points to say later ",
+                "correct": true,
+                "order": 3
+              },
+              {
+                "text": "include self-analysis  ",
+                "correct": false,
+                "order": 4
+              },
+              {
+                "text": "rewrite them after the seminar ",
+                "correct": false,
+                "order": 5
+              }
+            ],
+            "selection_option": null,
+            "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+            "user_updated": "25f75627-cfcd-492d-add1-8f36b5e2aecb",
+            "date_created": "2024-06-28T12:01:02.37+07:00",
+            "date_updated": "2025-12-04T12:19:53.977+07:00",
+            "instruction": null,
+            "writing_logical_frame": null,
+            "writing_graph_image": null,
+            "writing_graph_description": null,
+            "writing_graph_type": null,
+            "time_limit": null,
+            "audio_url": null,
+            "min_words": 0,
+            "max_words": 0,
+            "question_set_id": null,
+            "word_class": null,
+            "correct_answer": "",
+            "correct_answers": null,
+            "text": "",
+            "options": null,
+            "locate_info": null,
+            "matching_heading_paragraph": null,
+            "map_position": null,
+            "sample_answers": null,
+            "pronunciation_structure": null
+          }
+        ],
+        "vocabs": [
+          {
+            "id": 528801,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528802,
+                "level": 2,
+                "value": "Tutor: Come in!",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528806,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528807,
+                "level": 2,
+                "value": "Ahmed: Hi.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528810,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528811,
+                "level": 2,
+                "value": "T: Oh.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 528814,
+                "level": 2,
+                "value": "hello.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 528816,
+                "level": 2,
+                "value": "Ahmed .. .",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 528819,
+                "level": 2,
+                "value": "how are you?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528823,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528824,
+                "level": 2,
+                "value": "A: Fine, thanks.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528827,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528828,
+                "level": 2,
+                "value": "T: Have a seat.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 528831,
+                "level": 2,
+                "value": "So ... how do you think the seminar went last week?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528844,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528845,
+                "level": 2,
+                "value": "A: Oh, well ...",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 528849,
+                "level": 2,
+                "value": "I enjoyed it, yes, though I’m not sure I really followed parts of the discussion that took place – you know, about the theory and all that ...",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528876,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528877,
+                "level": 2,
+                "value": "T: Well, we can talk about that later ... but were you comfortable in a group?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528891,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528892,
+                "level": 2,
+                "value": "A: Oh.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 528895,
+                "level": 2,
+                "value": "it’s better, I think, than working on your own – though you’re comparing yourself all the time with the other students there.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528917,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528918,
+                "level": 2,
+                "value": "T: OK, well, let’s talk about how you did and look at some strategies to help you in the future.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528938,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528939,
+                "level": 2,
+                "value": "A: That would be great.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528944,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528945,
+                "level": 2,
+                "value": "T: Now, one of the things that students often overlook when they go to seminars is that you do need to prepare for them.",
+                "youpass_pick_words": [
+                  "overlook"
+                ],
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 528969,
+                "level": 2,
+                "value": "You can’t rely on other people.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 528976,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 528977,
+                "level": 2,
+                "value": "A: I know, and I did look at the results of the experiments we did in class and write them up beforehand ... as you said.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529002,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529003,
+                "level": 2,
+                "value": "T: Yes ... and that was good, it made it easier to analyse them.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529015,
+                "level": 2,
+                "value": "But you have to do some background reading as well.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529026,
+                "level": 2,
+                "value": "Did you get the list of articles I sent round?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529037,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529038,
+                "level": 2,
+                "value": "A: Mmm - I’ve started to read them ...",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529046,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529047,
+                "level": 2,
+                "value": "T: OK, well, you’ll know that for next time.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529056,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529057,
+                "level": 2,
+                "value": "A: Yes, yes, sure.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529061,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529062,
+                "level": 2,
+                "value": "T: So let’s move on to your participation in the seminar.",
+                "youpass_pick_words": [
+                  "participation"
+                ],
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529073,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529074,
+                "level": 2,
+                "value": "A: Right.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529076,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529077,
+                "level": 2,
+                "value": "T: Perhaps you can tell me how you think that went?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529089,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529090,
+                "level": 2,
+                "value": "A: Yeah, well, I’m not used to talking to more than a couple of people - it’s very different from the way we learn in my home country.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529115,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529116,
+                "level": 2,
+                "value": "T: Yes, I appreciate that.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529121,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529122,
+                "level": 2,
+                "value": "A: So I think I, um… well, I know I should have included everyone, but I think I kept turning to the person next to me.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529148,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529149,
+                "level": 2,
+                "value": "T: Is that because you were avoiding eye contact?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529159,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529160,
+                "level": 2,
+                "value": "A: I don’t think so - I’m not shy - it’s just habit, I think.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529175,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529176,
+                "level": 2,
+                "value": "T: Well, that will improve as we do more seminars.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529186,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529187,
+                "level": 2,
+                "value": "A: Uh-huh.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529190,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529191,
+                "level": 2,
+                "value": "T: Um, another difficulty is knowing when to speak.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529201,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529202,
+                "level": 2,
+                "value": "A: Like when it’s your turn?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529208,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529209,
+                "level": 2,
+                "value": "T: Yes.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529211,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529212,
+                "level": 2,
+                "value": "A: I felt I did wait for a pause…",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529220,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529221,
+                "level": 2,
+                "value": "T: Yes, you handled that quite well.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529228,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529229,
+                "level": 2,
+                "value": "A: The thing I’m really concerned about is keeping up with the discussion.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529242,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529243,
+                "level": 2,
+                "value": "T: Ah, does your mind wander off?",
+                "youpass_pick_words": [
+                  "wander"
+                ],
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529251,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529252,
+                "level": 2,
+                "value": "A: Sometimes.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529254,
+                "level": 2,
+                "value": "I jot down a lot of information, but I still find myself thinking about something else when lots of other students are talking.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529277,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529278,
+                "level": 2,
+                "value": "T: Mmm.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529281,
+                "level": 2,
+                "value": "If there’s an assignment to do at the end of a group, that usually helps!",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529297,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529298,
+                "level": 2,
+                "value": "A: I’m sure it does.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529303,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529304,
+                "level": 2,
+                "value": "T: OK. Now, the last thing I want to look at is the role that you play in the seminar.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529323,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529324,
+                "level": 2,
+                "value": "A: What do you mean?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529329,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529330,
+                "level": 2,
+                "value": "T: Well, when students work in groups, they don’t all behave the same way.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529344,
+                "level": 2,
+                "value": "Some students are quiet, some look for support, some ask a lot of questions …",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529358,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529359,
+                "level": 2,
+                "value": "A: Oh ... that’s a new idea to me.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529366,
+                "level": 2,
+                "value": "I don’t know what I’m like ...",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529374,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529375,
+                "level": 2,
+                "value": "T: That’s probably because you’re thinking about your own performance all the time.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529388,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529389,
+                "level": 2,
+                "value": "A: I guess so.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529393,
+                "level": 2,
+                "value": "I mean, should I be different in some way.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529405,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529406,
+                "level": 2,
+                "value": "T: What I would say is that when we do the next seminar, you should look more at the people around you ... you know, look outside yourself.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529434,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529435,
+                "level": 2,
+                "value": "A: Like, ask myself how they feel?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529442,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529443,
+                "level": 2,
+                "value": "T: Yes, or what they’re looking for from the group.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529452,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529453,
+                "level": 2,
+                "value": "A: OK.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529456,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529457,
+                "level": 2,
+                "value": "T: It doesn’t take much, but it’s important to watch what other students are doing.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529472,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529473,
+                "level": 2,
+                "value": "A: OK, I’ll do that.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529478,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529479,
+                "level": 2,
+                "value": "T: Fine.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529482,
+                "level": 2,
+                "value": "Now,…",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529484,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529485,
+                "level": 2,
+                "value": "(Pause)",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529489,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529490,
+                "level": 2,
+                "value": "T: Now, I’m going to suggest a couple of strategies for next week’s seminar.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529503,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529504,
+                "level": 2,
+                "value": "A: OK - that’s great.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529509,
+                "level": 2,
+                "value": "I need to participate more.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529515,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529516,
+                "level": 2,
+                "value": "T: Well, it’s not a question of saying more - but we need everyone to feel comfortable about giving their views.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529535,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529536,
+                "level": 2,
+                "value": "A: Then the discussion is better.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529542,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529543,
+                "level": 2,
+                "value": "T: Yes.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529545,
+                "level": 2,
+                "value": "So… you’re a confident person ..",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529552,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529553,
+                "level": 2,
+                "value": "A: Should I make sure I’m near someone who’s quiet?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529564,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529565,
+                "level": 2,
+                "value": "T: You can do, but it’s more about how well you pay attention to other students.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529581,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529582,
+                "level": 2,
+                "value": "A: OK - so I need to be attentive.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529591,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529592,
+                "level": 2,
+                "value": "T: Yes, and then encourage someone else to say more by saying: ’What did you mean when you said .",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529605,
+                "level": 2,
+                "value": ".",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529607,
+                "level": 2,
+                "value": "?’",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529609,
+                "level": 2,
+                "value": "or ’What do you think about the idea that ...?’",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529620,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529621,
+                "level": 2,
+                "value": "A: That way I’m talking…",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529626,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529627,
+                "level": 2,
+                "value": "T: Yes, but you’ll find that other people will talk, too.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529638,
+                "level": 2,
+                "value": "You’ll all start to get really involved.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529647,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529648,
+                "level": 2,
+                "value": "A: Right - they’re good suggestions.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529654,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529655,
+                "level": 2,
+                "value": "T: The other thing that can really help is the way you take notes.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529669,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529670,
+                "level": 2,
+                "value": "A: Yeah, I know I write down everything, but I should be stricter with myself.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529685,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529686,
+                "level": 2,
+                "value": "T: Well, you actually need to think a few days ahead.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529696,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529697,
+                "level": 2,
+                "value": "A: Really?",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529699,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529700,
+                "level": 2,
+                "value": "T: Yes - ’What’s the topic?’",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529707,
+                "level": 2,
+                "value": "and ’What’s the best way of making notes?’",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529716,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529717,
+                "level": 2,
+                "value": "A: I see.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529720,
+                "level": 2,
+                "value": "So I have a strategy when I walk in the room.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529731,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529732,
+                "level": 2,
+                "value": "T: Exactly.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529735,
+                "level": 2,
+                "value": "Then, when you read through them later, they’ll make sense and you won’t have to write them out again.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529755,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529756,
+                "level": 2,
+                "value": "A: I always have to do that!",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529763,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529764,
+                "level": 2,
+                "value": "T: The other thing I would say is that you should include a small column in your notes where you can jot down things you want to go back to before the seminar ends.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529797,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529798,
+                "level": 2,
+                "value": "A: Like a reminder.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529801,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529802,
+                "level": 2,
+                "value": "T: Yes.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              },
+              {
+                "id": 529804,
+                "level": 2,
+                "value": "Notes aren’t just for later - you can use them as a prompt when there’s a pause in the discussion.",
+                "youpass_pick_words": [
+                  "prompt"
+                ],
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529824,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529825,
+                "level": 2,
+                "value": "A: That’s been really helpful.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529830,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529831,
+                "level": 2,
+                "value": "T: OK - see you in class tomorrow.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          },
+          {
+            "id": 529838,
+            "level": 1,
+            "value": "",
+            "children": [
+              {
+                "id": 529839,
+                "level": 2,
+                "value": "A: Thanks.",
+                "skill": "",
+                "created_at": "0001-01-01T00:00:00Z",
+                "learning_status": 0
+              }
+            ],
+            "skill": "",
+            "created_at": "0001-01-01T00:00:00Z",
+            "learning_status": 0
+          }
+        ],
+        "listen_from": null,
+        "listen_to": null,
+        "instruction": null,
+        "question_sets": null,
+        "task_instruction": "",
+        "file_id": "",
+        "transcription": ""
+      }
+    ],
+    "tags": null,
+    "user_created": "cc6ca7ca-ebd3-492f-a23b-0f5c0bde2098",
+    "user_updated": "8d6b5342-4c23-4243-a20a-952fd1a0dbad",
+    "date_created": "2024-06-28T11:50:56.652+07:00",
+    "date_updated": "2026-05-06T18:15:48.994413+07:00",
+    "quiz_part": null,
+    "quiz_type": 3,
+    "mock_test_id": null,
+    "mock_test_type": 0,
+    "listening": "a1bafb8c-7203-4165-92d9-5129922b059e",
+    "instruction": null,
+    "question": null,
+    "samples": null,
+    "vote_count": 8,
+    "total_submitted": 7046,
+    "writing_task_type": null,
+    "extra": {
+      "user_attempt_count": null
+    },
+    "speaking_part_type": null,
+    "speaking_topic_id": null,
+    "speaking_topic": null,
+    "instruction_audio": "",
+    "meta_seo_id": null,
+    "slug": null,
+    "meta_seo": null,
+    "is_public": true,
+    "legacy_quiz_id": null,
+    "has_guided_retry": false
+  }
+}

@@ -1,0 +1,155 @@
+{
+  "url": "https://api.youpass.vn/v1/e-learning/comment/pinned?section=reading&limit=2&child_limit=3",
+  "status": 200,
+  "body": {
+    "code": 0,
+    "message": "",
+    "data": {
+      "comments": [
+        {
+          "id": 25197,
+          "created_time": 1777465099,
+          "updated_time": 1777465099,
+          "status": 1,
+          "content": "WRITING BUILDER ra mắt đủ Task 1-2 - MIỄN PHÍ Bạn cảm thấy quá chật vật để viết xong 1 bài Writing? 🎉  Thử ngay Writing Builder - tính năng \"cầm tay chỉ việc\", hướng dẫn bạn từng bước với đầy đủ \"nguyên liệu\" bạn cần để viết bài Writing Task 1,2 hoàn chỉnh. 👉 Bắt đầu viết ngay tại: https://youpass.vn/luyen-thi/ielts/writing/task-1?quiz_type=quiz&status=unfinished",
+          "section": "reading",
+          "user_id": "266f2058-72cc-4c10-9f12-dbc5045539bf",
+          "attach_images": [
+            "https://cms.youpass.vn/assets/a8bd613b-2953-492b-a47e-7c8631d3d57e"
+          ],
+          "meta": null,
+          "vote_count": 1,
+          "is_pinned": true,
+          "reference_url": "https://youpass.vn/luyen-thi/ielts/reading?quiz_type=quiz&status=unfinished",
+          "user_updated": null,
+          "child_count": 3,
+          "child": [
+            {
+              "id": 25460,
+              "created_time": 1777992275,
+              "updated_time": 1777992275,
+              "status": 1,
+              "content": "ra reading builder đi ạ",
+              "section": "reading",
+              "parent_id": 25197,
+              "user_id": "de113109-9cc4-49c3-8292-1faae3492ea8",
+              "meta": null,
+              "vote_count": 0,
+              "is_pinned": false,
+              "reference_url": "https://youpass.vn/luyen-thi/ielts/reading?quiz_type=quiz&status=unfinished&search=c19t3",
+              "user_updated": null
+            },
+            {
+              "id": 25461,
+              "created_time": 1777992402,
+              "updated_time": 1777992402,
+              "status": 1,
+              "content": "Mình có Reading Pro rồi em nhé (bản beta), em làm 1 bài lẻ cam 18 19 20 bất kỳ, nộp bài, rồi trải nghiệm Reading Pro nhe",
+              "section": "reading",
+              "parent_id": 25197,
+              "user_id": "50f28711-5a3d-4f29-aaf5-0b1e634fc86e",
+              "meta": null,
+              "vote_count": 0,
+              "is_pinned": false,
+              "reference_url": "https://youpass.vn/luyen-thi/ielts/reading?quiz_type=quiz&status=unfinished&search=c19t3",
+              "user_updated": null
+            },
+            {
+              "id": 25512,
+              "created_time": 1778144481,
+              "updated_time": 1778144481,
+              "status": 1,
+              "content": "reading pro có vol k ạ",
+              "section": "reading",
+              "parent_id": 25197,
+              "user_id": "b39c9d6d-9fc9-4c9e-9777-fe888b0103d2",
+              "meta": null,
+              "vote_count": 0,
+              "is_pinned": false,
+              "reference_url": "https://youpass.vn/luyen-thi/ielts/reading?quiz_type=quiz&status=unfinished&passage=33&source=CAM",
+              "user_updated": null
+            }
+          ]
+        },
+        {
+          "id": 15170,
+          "created_time": 1761294912,
+          "updated_time": 1761294912,
+          "status": 1,
+          "content": "🎁 TẶNG YouPass PRO 1 tháng khi đăng ký thi IDP qua YouPass!!!  👉 Nếu bạn muốn đăng ký thi IDP qua YouPass, hãy nhắn tin Zalo YouPass để được hỗ trợ tại đây: https://zalo.me/youpass",
+          "section": "reading",
+          "user_id": "266f2058-72cc-4c10-9f12-dbc5045539bf",
+          "meta": null,
+          "vote_count": 17,
+          "is_pinned": true,
+          "reference_url": "https://youpass.vn/luyen-thi/ielts/reading?quiz_type=quiz&status=unfinished",
+          "user_updated": null,
+          "child_count": 0
+        }
+      ],
+      "users": [
+        {
+          "id": "266f2058-72cc-4c10-9f12-dbc5045539bf",
+          "fullname": "Đậu Lớp Trưởng",
+          "avatar": "609b7e81-41e5-4751-9e3d-d5f7b64f8013",
+          "role": "4ef5178f-d197-4054-9f8e-9a971405c27b",
+          "directus_roles": {
+            "id": "4ef5178f-d197-4054-9f8e-9a971405c27b",
+            "name": "Administrator",
+            "public_id": null
+          },
+          "first_name": "youpass teacher ",
+          "user_type": null,
+          "birthday": null
+        },
+        {
+          "id": "50f28711-5a3d-4f29-aaf5-0b1e634fc86e",
+          "fullname": "Nguyễn Minh Nguyên",
+          "role": "49b19b3a-3ccf-49c9-a10b-c767fb0df381",
+          "directus_roles": {
+            "id": "49b19b3a-3ccf-49c9-a10b-c767fb0df381",
+            "name": "End User",
+            "public_id": null
+          },
+          "first_name": "Minh Nguyên",
+          "last_name": "Nguyễn",
+          "user_type": "youpass_pro",
+          "birthday": null
+        },
+        {
+          "id": "b39c9d6d-9fc9-4c9e-9777-fe888b0103d2",
+          "fullname": "Nguyễn Thị Cẩm Tú",
+          "role": "49b19b3a-3ccf-49c9-a10b-c767fb0df381",
+          "directus_roles": {
+            "id": "49b19b3a-3ccf-49c9-a10b-c767fb0df381",
+            "name": "End User",
+            "public_id": null
+          },
+          "first_name": "Cẩm Tú",
+          "last_name": "Nguyễn Thị",
+          "user_type": null,
+          "birthday": null
+        },
+        {
+          "id": "de113109-9cc4-49c3-8292-1faae3492ea8",
+          "fullname": "Đỗ Minh Đức",
+          "role": "49b19b3a-3ccf-49c9-a10b-c767fb0df381",
+          "directus_roles": {
+            "id": "49b19b3a-3ccf-49c9-a10b-c767fb0df381",
+            "name": "End User",
+            "public_id": null
+          },
+          "first_name": "Đức",
+          "last_name": "Đỗ Minh",
+          "user_type": "youpass_pro",
+          "birthday": null
+        }
+      ]
+    },
+    "paging": {
+      "total_count": 2,
+      "limit": 2,
+      "page": 1
+    }
+  }
+}
