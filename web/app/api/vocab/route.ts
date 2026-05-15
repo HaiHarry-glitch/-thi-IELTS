@@ -3,20 +3,41 @@ import fs from "fs";
 import path from "path";
 
 const YOUPASS_BASE = "https://api.youpass.vn/v1";
-const SESSION_PATH = path.join(process.cwd(), "../data/sessions/storage-state.json");
-const CACHE_PATH = path.join(process.cwd(), "../data/api/vocab/cache.json");
 const COOKIE_TTL = 60 * 60 * 1000;
+
+// Resolve cache/session paths — try multiple locations so it works in dev,
+// standalone serverless (Netlify), and bundled environments.
+function resolveDataPath(rel: string): string {
+  const candidates = [
+    path.join(process.cwd(), "../data", rel),     // dev (cwd = web/)
+    path.join(process.cwd(), "data", rel),         // standalone/serverless (cwd = repo root or .next/standalone)
+    path.join(process.cwd(), "../../data", rel),   // nested standalone (.next/standalone/web/)
+  ];
+  for (const p of candidates) {
+    try { if (fs.existsSync(p)) return p; } catch {}
+  }
+  return candidates[0]; // fallback (will fail gracefully)
+}
+
+const SESSION_PATH    = resolveDataPath("sessions/storage-state.json");
+const CACHE_PATH      = resolveDataPath("api/vocab/cache.json");
+const WORD_CACHE_PATH = resolveDataPath("api/vocab/word-cache.json");
 
 let cachedCookies: string | null = null;
 let cachedAuthToken: string | null = null;
 let cachedAt = 0;
 let fileCache: Record<string, unknown> = {};
+let wordCache: Record<string, unknown> = {};
 
 try {
   if (fs.existsSync(CACHE_PATH)) fileCache = JSON.parse(fs.readFileSync(CACHE_PATH, "utf8"));
-} catch {
-  fileCache = {};
-}
+} catch { fileCache = {}; }
+
+try {
+  if (fs.existsSync(WORD_CACHE_PATH)) wordCache = JSON.parse(fs.readFileSync(WORD_CACHE_PATH, "utf8"));
+} catch { wordCache = {}; }
+
+console.log(`[vocab] cache loaded: exact=${Object.keys(fileCache).length}, words=${Object.keys(wordCache).length}, path=${WORD_CACHE_PATH}`);
 
 function getCookieHeader(): string {
   // 1. Ưu tiên env var YOUPASS_AUTH_TOKEN (dùng trên Netlify/production)
@@ -71,8 +92,13 @@ export async function GET(req: NextRequest) {
   }
 
   const cacheKey = `${parentId}::${word.toLowerCase()}`;
+  // 1. Exact context cache (parentId::word)
   if (fileCache[cacheKey]) {
     return NextResponse.json(fileCache[cacheKey], { headers: { "X-Cache": "HIT" } });
+  }
+  // 2. Word-level cache fallback (fetched from any sentence — offline mode)
+  if (wordCache[word.toLowerCase()]) {
+    return NextResponse.json(wordCache[word.toLowerCase()], { headers: { "X-Cache": "WORD-HIT" } });
   }
 
   const cookie = getCookieHeader();
