@@ -1,0 +1,187 @@
+// src/normalize-legacy.js
+// Handle old YouPass API format: part.questions[] (flat) -> question_sets[] (grouped).
+
+const TYPE_MAP = {
+  MULTIPLE_CHOICE_ONE: 'SINGLE_CHOICE',
+  MULTIPLE_CHOICE_MANY: 'MULTIPLE_CHOICE_MANY',
+  TRUE_FALSE: 'SINGLE_SELECTION',
+  YES_NO: 'SINGLE_SELECTION',
+  MATCHING_HEADING: 'MATCHING_HEADINGS',
+  MATCHING_INFO: 'MATCHING_FEATURES',
+  MATCHING_NAMES: 'MATCHING_FEATURES',
+  FILL_BLANK: 'GAP_FILLING',
+  MAP_DIAGRAM_LABEL: 'GAP_FILLING',
+  OTHERS: 'GAP_FILLING',
+};
+
+const TFNG = [
+  { option: 'TRUE', text: 'TRUE' },
+  { option: 'FALSE', text: 'FALSE' },
+  { option: 'NOT GIVEN', text: 'NOT GIVEN' },
+];
+
+const YNNG = [
+  { option: 'YES', text: 'YES' },
+  { option: 'NO', text: 'NO' },
+  { option: 'NOT GIVEN', text: 'NOT GIVEN' },
+];
+
+function extractGapPattern(html) {
+  if (!html) return { html: '', pairs: [] };
+  const pairs = [];
+  const replaced = html.replace(
+    /\{\[([^\]]*)\]\[(\d+)\]\}/g,
+    (_m, answer, order) => {
+      const ord = parseInt(order, 10);
+      pairs.push({ order: ord, answer: answer.trim() });
+      return `<span class="gap-placeholder" data-question-id="gf_${ord}">${ord}</span>`;
+    }
+  );
+  return { html: replaced, pairs };
+}
+
+function groupConsecutiveByType(questions) {
+  const groups = [];
+  let current = null;
+
+  for (const q of questions) {
+    const t = q.question_type || 'OTHERS';
+    if (!current || current.type !== t) {
+      current = { type: t, items: [q] };
+      groups.push(current);
+    } else {
+      current.items.push(q);
+    }
+  }
+
+  return groups;
+}
+
+function buildOptions(firstQuestion) {
+  if (firstQuestion.selection_option && firstQuestion.selection_option.length) {
+    return firstQuestion.selection_option.map((o) => ({
+      option: o.option,
+      text: o.text || o.option,
+    }));
+  }
+  return null;
+}
+
+function normalizeLegacyQuestion(q, order) {
+  const base = {
+    id: q.id,
+    order: q.order || order,
+    type: TYPE_MAP[q.question_type] || 'GAP_FILLING',
+    text: '',
+    content: '',
+    options: null,
+    correctAnswer: null,
+    correctAnswers: null,
+    explanationHtml: q.explain || '',
+    locateInfo: q.locate_info || null,
+    matchingHeadingParagraph: q.matching_heading_paragraph || null,
+    mapPosition: q.map_position || null,
+    audioUrl: q.audio_url || null,
+    sampleAnswers: q.sample_answers || null,
+  };
+
+  const ot = q.question_type;
+
+  if (ot === 'MULTIPLE_CHOICE_ONE' && q.single_choice_radio) {
+    const opts = q.single_choice_radio;
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
+    base.options = opts.map((o, i) => ({ option: letters[i], text: o.text }));
+    const correctIdx = opts.findIndex((o) => o.correct);
+    if (correctIdx >= 0) base.correctAnswer = letters[correctIdx];
+    base.text = (q.gap_fill_in_blank || '').replace(/<[^>]+>/g, '').trim() ||
+      q.content || '';
+    return base;
+  }
+
+  if (ot === 'MULTIPLE_CHOICE_MANY' && q.mutilple_choice) {
+    const opts = q.mutilple_choice;
+    const letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'];
+    base.options = opts.map((o, i) => ({ option: letters[i], text: o.text }));
+    base.correctAnswers = opts
+      .map((o, i) => (o.correct ? letters[i] : null))
+      .filter(Boolean);
+    base.text = (q.description || '').replace(/<[^>]+>/g, '').trim().slice(0, 200);
+    return base;
+  }
+
+  if (q.selection && q.selection.length) {
+    const sel = q.selection[0];
+    base.text = sel.text || '';
+    base.correctAnswer = sel.answer || '';
+  }
+
+  if (ot === 'MATCHING_HEADING' && q.selection && q.selection[0]) {
+    const m = q.selection[0].text.match(/Paragraph\s+([A-Z])/i);
+    if (m) base.matchingHeadingParagraph = m[1];
+  }
+
+  if (
+    (ot === 'FILL_BLANK' || ot === 'MAP_DIAGRAM_LABEL' || ot === 'OTHERS') &&
+    !base.text
+  ) {
+    const { pairs } = extractGapPattern(q.gap_fill_in_blank || '');
+    const match = pairs.find((p) => p.order === q.order);
+    if (match) {
+      base.correctAnswer = match.answer.split('|')[0].trim();
+      base.correctAnswers = match.answer.split('|').map((s) => s.trim());
+    }
+  }
+
+  return base;
+}
+
+function buildQuestionSet(group, groupIndex) {
+  const firstQ = group.items[0];
+  const newType = TYPE_MAP[group.type] || 'GAP_FILLING';
+
+  let options = buildOptions(firstQ);
+  if (newType === 'SINGLE_SELECTION' && !options) {
+    options = group.type === 'YES_NO' ? YNNG : TFNG;
+  }
+
+  let contentHtml = '';
+  if (
+    group.type === 'FILL_BLANK' ||
+    group.type === 'MAP_DIAGRAM_LABEL' ||
+    group.type === 'OTHERS'
+  ) {
+    const fullGap = firstQ.gap_fill_in_blank || '';
+    const { html } = extractGapPattern(fullGap);
+    contentHtml = html;
+  }
+
+  return {
+    id: firstQ.id * 1000 + groupIndex,
+    type: newType,
+    title: '',
+    instructionHtml: firstQ.description || '',
+    contentHtml,
+    options,
+    optionTitle: null,
+    allowReuse:
+      group.type === 'MATCHING_INFO' ||
+      /more than once/i.test(firstQ.description || ''),
+    maxSelections: group.type === 'MULTIPLE_CHOICE_MANY' ? 2 : null,
+    image: null,
+    sort: groupIndex,
+    questions: group.items.map((q, i) =>
+      normalizeLegacyQuestion(q, q.order || i + 1)
+    ),
+  };
+}
+
+function normalizeLegacyQuestions(flatQuestions, passageHtml) {
+  if (!flatQuestions || !flatQuestions.length) return { questionSets: [], passageHtml };
+
+  const groups = groupConsecutiveByType(flatQuestions);
+  const questionSets = groups.map((g, i) => buildQuestionSet(g, i));
+
+  return { questionSets, passageHtml };
+}
+
+module.exports = { normalizeLegacyQuestions };

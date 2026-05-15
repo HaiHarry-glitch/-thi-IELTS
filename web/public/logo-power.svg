@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 40" width="140" height="40" role="img" aria-label="HIN">
+  <g>
+    <rect x="0" y="6" width="28" height="28" rx="6" fill="#1a1a1a"/>
+    <text x="14" y="26" text-anchor="middle" fill="#F5F1E9" font-family="Arial, sans-serif" font-weight="900" font-size="15">H</text>
+    <text x="36" y="23" font-family="Arial, sans-serif" font-weight="900" font-size="18" fill="#1a1a1a">HIN</text>
+    <text x="36" y="34" font-family="Arial, sans-serif" font-weight="700" font-size="7" fill="#666">IELTS Reading &amp; Listening</text>
+  </g>
+</svg>

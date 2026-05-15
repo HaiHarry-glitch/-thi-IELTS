@@ -1,0 +1,20 @@
+{
+  "name": "youpassclone",
+  "version": "1.0.0",
+  "description": "IELTS Website Clone Tool",
+  "scripts": {
+    "build:full-tests": "node scripts/build-full-test-index.js",
+    "login": "node src/login-portal.js",
+    "scrape": "node src/scraper.js",
+    "parse": "node src/ai-parser.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@mendable/firecrawl-js": "^4.22.2",
+    "chalk": "^5.6.2",
+    "dotenv": "^17.4.2",
+    "fs-extra": "^11.3.5",
+    "ora": "^9.4.0",
+    "playwright": "^1.59.1"
+  }
+}

@@ -1,0 +1,186 @@
+"use client";
+
+import { useMemo, Fragment } from "react";
+import type { QuestionSet, Answers, Mode } from "./types";
+import QSetHeader from "./QSetHeader";
+import AnswerStatus from "./AnswerStatus";
+
+function correctFor(q: QuestionSet["questions"][0]): string | string[] | null {
+  if (q.correctAnswers && q.correctAnswers.length > 0) return q.correctAnswers;
+  return q.correctAnswer;
+}
+
+type Segment =
+  | { kind: "html"; html: string }
+  | { kind: "gap"; order: number; qid: number };
+
+/**
+ * Parse contentHtml into a list of segments alternating between HTML strings
+ * and gap markers. Each gap-placeholder span becomes a {kind:"gap"} node so
+ * we can render a real React <input> for it (controlled, no DOM hacks).
+ */
+function parseSegments(
+  contentHtml: string,
+  questions: QuestionSet["questions"]
+): Segment[] {
+  const orderToQ = new Map(questions.map((q) => [q.order, q]));
+  const re =
+    /<span[^>]*class="[^"]*gap-placeholder[^"]*"[^>]*data-question-id="([^"]*)"[^>]*>[\s\S]*?<\/span>/g;
+
+  const segments: Segment[] = [];
+  let lastIdx = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = re.exec(contentHtml)) !== null) {
+    if (match.index > lastIdx) {
+      segments.push({ kind: "html", html: contentHtml.slice(lastIdx, match.index) });
+    }
+    const qid = match[1];
+    const m = qid.match(/(?:gf_|note_comp_)?(\d+)/);
+    if (m) {
+      const order = parseInt(m[1]);
+      const q = orderToQ.get(order);
+      if (q) {
+        segments.push({ kind: "gap", order, qid: q.id });
+      } else {
+        segments.push({ kind: "html", html: match[0] });
+      }
+    } else {
+      segments.push({ kind: "html", html: match[0] });
+    }
+    lastIdx = match.index + match[0].length;
+  }
+  if (lastIdx < contentHtml.length) {
+    segments.push({ kind: "html", html: contentHtml.slice(lastIdx) });
+  }
+  return segments;
+}
+
+export default function GapFilling({
+  qs,
+  answers,
+  onAnswer,
+  mode,
+}: {
+  qs: QuestionSet;
+  answers: Answers;
+  onAnswer: (qId: number, val: string) => void;
+  mode: Mode;
+}) {
+  const isReview = mode !== "exam";
+  const hasGaps = !!qs.contentHtml?.includes("gap-placeholder");
+
+  const segments = useMemo(
+    () => (hasGaps ? parseSegments(qs.contentHtml!, qs.questions) : []),
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    [qs.id, qs.contentHtml]
+  );
+
+  return (
+    <div className="anchor-hl-note content-cms" id={`question-set-${qs.id}`}>
+      <QSetHeader qs={qs} />
+
+      {hasGaps ? (
+        <div className="content-html leading-loose">
+          {segments.map((seg, i) =>
+            seg.kind === "html" ? (
+              <span
+                key={i}
+                dangerouslySetInnerHTML={{ __html: seg.html }}
+              />
+            ) : (
+              <Fragment key={i}>
+                <span
+                  id={`question-${seg.qid}`}
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    verticalAlign: "middle",
+                    margin: "0 2px",
+                  }}
+                >
+                  <input
+                    type="text"
+                    value={(answers[seg.qid] as string) ?? ""}
+                    disabled={isReview}
+                    placeholder={String(seg.order)}
+                    onChange={(e) => onAnswer(seg.qid, e.target.value)}
+                    style={{
+                      border: "1px solid #888",
+                      borderRadius: 2,
+                      padding: "0 6px",
+                      height: 24,
+                      fontSize: 13,
+                      minWidth: 80,
+                      outline: "none",
+                      background: "white",
+                      textAlign: "center",
+                    }}
+                  />
+                </span>
+              </Fragment>
+            )
+          )}
+        </div>
+      ) : (
+        <FallbackInputs qs={qs} answers={answers} onAnswer={onAnswer} mode={mode} />
+      )}
+
+      {mode === "review" && (
+        <div className="mt-4 space-y-2">
+          {qs.questions.map((q) => (
+            <AnswerStatus
+              key={q.id}
+              mode={mode}
+              userAnswer={answers[q.id] as string | undefined}
+              correct={correctFor(q)}
+              explanationHtml={q.explanationHtml}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function FallbackInputs({
+  qs,
+  answers,
+  onAnswer,
+  mode,
+}: {
+  qs: QuestionSet;
+  answers: Answers;
+  onAnswer: (qId: number, val: string) => void;
+  mode: Mode;
+}) {
+  const isReview = mode !== "exam";
+  return (
+    <div className="space-y-3 mt-3">
+      {qs.questions.map((q) => {
+        const val = (answers[q.id] as string) ?? "";
+        return (
+          <div key={q.id} className="flex items-center gap-2 flex-wrap">
+            <span
+              id={`question-${q.id}`}
+              className={`font-bold border whitespace-nowrap rounded-[4px] min-w-7 px-1 flex items-center justify-center text-sm ${
+                val ? "border-[#418ec8] shadow-[0_0_0_1px_#418ec8]" : "border-transparent"
+              }`}
+            >
+              {q.order}
+            </span>
+            {q.text && <span className="text-sm flex-1">{q.text}</span>}
+            <input
+              type="text"
+              value={val}
+              disabled={isReview}
+              onChange={(e) => onAnswer(q.id, e.target.value)}
+              placeholder={String(q.order)}
+              className="border border-[#888] rounded-[2px] px-2 py-0.5 text-sm min-w-[80px] outline-none text-center"
+            />
+          </div>
+        );
+      })}
+    </div>
+  );
+}

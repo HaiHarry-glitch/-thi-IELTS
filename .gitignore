@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+.next/
+.next_old_1/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+*.out.log
+*.err.log
+debug.log
+
+# ALL DATA (too large, managed separately)
+data/
+
+# IDE / OS
+.claude/
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+tsconfig.tsbuildinfo
