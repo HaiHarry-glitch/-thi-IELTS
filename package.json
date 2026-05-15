@@ -2,10 +2,15 @@
   "name": "youpassclone",
   "version": "1.0.0",
   "description": "IELTS Website Clone Tool",
+  "type": "module",
   "scripts": {
     "build:full-tests": "node scripts/build-full-test-index.js",
+    "scrape": "node scripts/scrape-new.js",
+    "scrape:reading": "node scripts/scrape-new.js reading",
+    "scrape:listening": "node scripts/scrape-new.js listening",
+    "scrape:all": "node scripts/scrape-new.js all",
+    "vocab:cache": "node scripts/build-vocab-cache.js",
     "login": "node src/login-portal.js",
-    "scrape": "node src/scraper.js",
     "parse": "node src/ai-parser.js"
   },
   "license": "ISC",
