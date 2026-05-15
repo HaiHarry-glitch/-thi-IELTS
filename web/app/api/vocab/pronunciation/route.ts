@@ -14,6 +14,10 @@ try {
 }
 
 function getCookieHeader(): string {
+  // 1. Env var (Netlify/production)
+  const envToken = process.env.YOUPASS_AUTH_TOKEN;
+  if (envToken) return `auth_token=${envToken}`;
+  // 2. Fallback: session file (local dev)
   try {
     const state = JSON.parse(fs.readFileSync(SESSION_PATH, "utf8"));
     return (state.cookies || [])
@@ -29,6 +33,8 @@ function getCookieHeader(): string {
 }
 
 function getAuthHeader(): string | null {
+  const envToken = process.env.YOUPASS_AUTH_TOKEN;
+  if (envToken) return `Bearer ${envToken}`;
   try {
     const state = JSON.parse(fs.readFileSync(SESSION_PATH, "utf8"));
     const token = (state.cookies || []).find((cookie: { name?: string }) => cookie.name === "auth_token")?.value;

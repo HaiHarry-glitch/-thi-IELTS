@@ -19,6 +19,14 @@ try {
 }
 
 function getCookieHeader(): string {
+  // 1. Ưu tiên env var YOUPASS_AUTH_TOKEN (dùng trên Netlify/production)
+  const envToken = process.env.YOUPASS_AUTH_TOKEN;
+  if (envToken) {
+    cachedAuthToken = envToken;
+    cachedCookies = `auth_token=${envToken}`;
+    return cachedCookies;
+  }
+  // 2. Fallback: đọc từ session file (local dev)
   if (cachedCookies && Date.now() - cachedAt < COOKIE_TTL) return cachedCookies;
   try {
     const state = JSON.parse(fs.readFileSync(SESSION_PATH, "utf8"));
