@@ -14,6 +14,7 @@
   included_files = [
     "../data/normalized/**",
     "../data/normalized-listening/**",
+    "../data/listening-audio/**",
     "../data/index/**",
     "../data/full-tests/**",
     "../data/sessions/storage-state.json",

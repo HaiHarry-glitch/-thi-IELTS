@@ -3,6 +3,35 @@ import path from "path";
 import { NextRequest, NextResponse } from "next/server";
 
 const AUDIO_DIR = path.join(process.cwd(), "../data/listening-audio");
+const NORMALIZED_LISTENING_DIR = path.join(process.cwd(), "../data/normalized-listening");
+
+function getContentType(file: string): string {
+  const ext = path.extname(file).toLowerCase();
+  if (ext === ".m4a" || ext === ".mp4") return "audio/mp4";
+  if (ext === ".wav") return "audio/wav";
+  if (ext === ".ogg") return "audio/ogg";
+  return "audio/mpeg";
+}
+
+function resolveCmsAudioUrl(file: string): string | null {
+  const match = /^(\d+)(?:-(\d+))?\.(?:mp3|m4a|wav|ogg)$/i.exec(file);
+  if (!match) return null;
+
+  const quizId = Number(match[1]);
+  const partIndex = match[2] == null ? 0 : Number(match[2]);
+  const quizPath = path.join(NORMALIZED_LISTENING_DIR, `${quizId}.json`);
+  if (!Number.isFinite(quizId) || !Number.isFinite(partIndex) || !fs.existsSync(quizPath)) return null;
+
+  try {
+    const quiz = JSON.parse(fs.readFileSync(quizPath, "utf8"));
+    const part = Array.isArray(quiz.parts) ? quiz.parts[partIndex] : null;
+    const fileId = part?.fileId;
+    if (typeof fileId !== "string" || !fileId) return null;
+    return `https://cms.youpass.vn/assets/${encodeURIComponent(fileId)}`;
+  } catch {
+    return null;
+  }
+}
 
 export async function GET(
   req: NextRequest,
@@ -19,6 +48,8 @@ export async function GET(
   }
   const filePath = path.join(AUDIO_DIR, file);
   if (!fs.existsSync(filePath)) {
+    const cmsUrl = resolveCmsAudioUrl(file);
+    if (cmsUrl) return NextResponse.redirect(cmsUrl);
     return NextResponse.json({ error: "not found" }, { status: 404 });
   }
 
@@ -38,7 +69,7 @@ export async function GET(
         "Content-Range": `bytes ${start}-${end}/${fileSize}`,
         "Accept-Ranges": "bytes",
         "Content-Length": String(chunkSize),
-        "Content-Type": "audio/mpeg",
+        "Content-Type": getContentType(file),
         "Cache-Control": "public, max-age=86400",
       },
     });
@@ -48,7 +79,7 @@ export async function GET(
   return new NextResponse(stream as any, {
     status: 200,
     headers: {
-      "Content-Type": "audio/mpeg",
+      "Content-Type": getContentType(file),
       "Content-Length": String(fileSize),
       "Accept-Ranges": "bytes",
       "Cache-Control": "public, max-age=86400",

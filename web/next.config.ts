@@ -8,6 +8,8 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/api/vocab": ["../data/api/vocab/word-cache.json", "../data/api/vocab/cache.json"],
     "/api/vocab/pronunciation": ["../data/api/vocab/pronunciation-cache.json"],
+    "/api/listening-audio/[file]": ["../data/normalized-listening/**", "../data/listening-audio/**"],
+    "/api/listening/audio/[file]": ["../data/normalized-listening/**", "../data/listening-audio/**"],
   },
 };
 
